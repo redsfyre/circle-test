@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/circle", methods=["POST"])
 def webhook():
   # Check if the request content type is URL-encoded form
-  if request.content_type == "application/x-www-form-urlencoded":
+  if request.content_type == "application/json":
     # Get the form data
     form = request.form
     
