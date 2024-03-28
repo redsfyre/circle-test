@@ -1,5 +1,6 @@
-In Circle-ci project settings, the webhook url is entered in the webhook menu. 
+In Circle-CI project settings, set the webhook url to `https://atlas.valven.com/webhook` and generate a secure token to validate the webhook.
+
 No change is needed in the config.yml file. 
 
-You can validate the webhook by using the following guide;
+Webhook validation details;
 https://circleci.com/docs/webhooks/#validate-webhooks
