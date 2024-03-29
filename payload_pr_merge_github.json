@@ -1,0 +1,78 @@
+{
+    "type": "workflow-completed",
+    "id": "52ade7d5-9d9c-3351-8c48-5ec167ba874d",
+    "happened_at": "2024-03-29T08:43:41.285717Z",
+    "webhook": {
+        "id": "33ead95a-e912-40c6-8606-cead72b03ad9",
+        "name": "Atlas Webhook"
+    },
+    "workflow": {
+        "id": "588408cd-1b27-4e0e-9e61-826a31a34989",
+        "name": "atlas_workflow",
+        "created_at": "2024-03-29T08:43:31.777Z",
+        "stopped_at": "2024-03-29T08:43:41.183Z",
+        "url": "https://app.circleci.com/pipelines/circleci/Taz8rcducXJmm7Kgy2RZgR/EvMbYQodNxxxZBzsNZFxP7/18/workflows/588408cd-1b27-4e0e-9e61-826a31a34989",
+        "status": "success"
+    },
+    "pipeline": {
+        "id": "a202b155-efc0-48ba-acb0-0259be38cda5",
+        "number": 18,
+        "created_at": "2024-03-29T08:43:31.630Z",
+        "trigger": {
+            "type": "github_app"
+        },
+        "trigger_parameters": {
+            "github_app": {
+                "web_url": "https://github.com/redsfyre/circle-test",
+                "commit_author_name": "Yasin \u0130sa YILDIRIM",
+                "owner": "redsfyre",
+                "user_id": "37442657",
+                "config_file_path": ".circleci/config.yml",
+                "user_name": "redsfyre",
+                "user_username": "redsfyre",
+                "branch": "main",
+                "content_ref": "806ae9b66b64696e408b4ba330b94e365f9f2f36",
+                "repo_id": "778742927",
+                "commit_title": "Merge pull request #1 from redsfyre/temp\n\nPR #1",
+                "commit_message": "Merge pull request #1 from redsfyre/temp\n\nPR #1",
+                "total_commits_count": "2",
+                "repo_url": "https://github.com/redsfyre/circle-test",
+                "user_avatar": "https://avatars.githubusercontent.com/u/37442657?v=4",
+                "ref": "main",
+                "repo_name": "circle-test",
+                "commit_author_email": "yasinisa@yildirim.dev",
+                "checkout_sha": "806ae9b66b64696e408b4ba330b94e365f9f2f36",
+                "commit_timestamp": "2024-03-29T11:43:29+03:00",
+                "repo_full_name": "redsfyre/circle-test",
+                "commit_sha": "806ae9b66b64696e408b4ba330b94e365f9f2f36"
+            },
+            "git": {
+                "checkout_sha": "806ae9b66b64696e408b4ba330b94e365f9f2f36",
+                "repo_url": "https://github.com/redsfyre/circle-test",
+                "ref": "main",
+                "branch": "main",
+                "checkout_url": "git@github.com:redsfyre/circle-test.git"
+            },
+            "circleci": {
+                "event_time": "2024-03-29T11:43:29+03:00",
+                "provider_actor_id": "87bf0b36-9f42-468e-846f-818778518dec",
+                "provider_name": "3505736a-c360-4792-a3dc-58a5689ed089",
+                "provider_login": "redsfyre",
+                "actor_id": "87bf0b36-9f42-468e-846f-818778518dec",
+                "auto_cancel_key": "",
+                "event_type": "push",
+                "trigger_type": "github_app"
+            }
+        }
+    },
+    "project": {
+        "id": "70b9ea33-4639-482d-bb72-a9624885eb0e",
+        "name": "Webhook",
+        "slug": "circleci/Taz8rcducXJmm7Kgy2RZgR/EvMbYQodNxxxZBzsNZFxP7"
+    },
+    "organization": {
+        "id": "d74c5c4b-ff60-4f6b-9da8-96c77a38affe",
+        "name": "Valven Inc."
+    }
+}
+
