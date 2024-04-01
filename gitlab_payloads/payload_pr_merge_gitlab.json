@@ -1,0 +1,79 @@
+{
+    "type": "workflow-completed",
+    "id": "ea384c24-829e-377a-a9fe-86ae64a522c2",
+    "happened_at": "2024-04-01T08:37:41.561514Z",
+    "webhook": {
+        "id": "9b6d5cea-708a-4638-b933-3a370aafe793",
+        "name": "atlas"
+    },
+    "workflow": {
+        "id": "db9a7dd3-8288-4ed5-a708-1ca4a42eeb09",
+        "name": "atlas_workflow",
+        "created_at": "2024-04-01T08:37:37.184Z",
+        "stopped_at": "2024-04-01T08:37:41.466Z",
+        "url": "https://app.circleci.com/pipelines/circleci/Taz8rcducXJmm7Kgy2RZgR/FEM7DykM2GxiL7zUJX1Wzo/10/workflows/db9a7dd3-8288-4ed5-a708-1ca4a42eeb09",
+        "status": "success"
+    },
+    "pipeline": {
+        "id": "52418241-1ae5-4410-a122-140d3cb7282a",
+        "number": 10,
+        "created_at": "2024-04-01T08:37:37.050Z",
+        "trigger": {
+            "type": "webhook"
+        },
+        "trigger_parameters": {
+            "gitlab": {
+                "web_url": "https://gitlab.com/yildirim-dev/circle-test",
+                "x_gitlab_event_id": "",
+                "commit_author_name": "Yasin \u0130sa YILDIRIM",
+                "user_id": "5534793",
+                "user_name": "Yasin \u0130sa YILDIRIM",
+                "user_username": "yildirim-dev",
+                "branch": "main",
+                "commit_title": "Merge branch 'temp' into 'main'",
+                "tag": "",
+                "action": "",
+                "commit_message": "Merge branch 'temp' into 'main'\n\ncircle gitlab pr create / merge test\n\nSee merge request yildirim-dev/circle-test!2",
+                "total_commits_count": "6",
+                "repo_url": "https://gitlab.com/yildirim-dev/circle-test",
+                "user_avatar": "https://gitlab.com/uploads/-/system/user/avatar/5534793/avatar.png",
+                "type": "push",
+                "project_id": "56321240",
+                "ref": "refs/heads/main",
+                "repo_name": "circle-test",
+                "commit_author_email": "yasinisa@yildirim.dev",
+                "checkout_sha": "3c73340020e2fe0c96b8b690adfc073d70178b8e",
+                "commit_timestamp": "2024-04-01T08:37:31+00:00",
+                "default_branch": "main",
+                "commit_sha": "3c73340020e2fe0c96b8b690adfc073d70178b8e",
+                "is_fork_merge_request": false
+            },
+            "circleci": {
+                "config_source_id": "a95fc8d2-1c2c-44fc-a3c5-4372bb72f450",
+                "event_time": "2024-04-01T08:37:36.497Z",
+                "provider_name": "dfa3937a-7fa1-470c-b797-51dc0ed331f6",
+                "actor_id": "87bf0b36-9f42-468e-846f-818778518dec",
+                "trigger_id": "09eee335-97f9-4c21-a5df-f08128f6d586",
+                "event_type": "push",
+                "trigger_type": "gitlab"
+            },
+            "git": {
+                "tag": "",
+                "checkout_sha": "3c73340020e2fe0c96b8b690adfc073d70178b8e",
+                "ref": "refs/heads/main",
+                "branch": "main",
+                "checkout_url": "git@gitlab.com:yildirim-dev/circle-test.git"
+            }
+        }
+    },
+    "project": {
+        "id": "733d0077-1ee0-4933-8b28-b0516c4420ec",
+        "name": "circle-test",
+        "slug": "circleci/Taz8rcducXJmm7Kgy2RZgR/FEM7DykM2GxiL7zUJX1Wzo"
+    },
+    "organization": {
+        "id": "d74c5c4b-ff60-4f6b-9da8-96c77a38affe",
+        "name": "Valven Inc."
+    }
+}
+
