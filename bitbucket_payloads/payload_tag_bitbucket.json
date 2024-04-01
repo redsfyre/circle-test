@@ -1,0 +1,56 @@
+{
+    "type": "workflow-completed",
+    "id": "47d9dd79-9edf-37f5-9524-96faced249c3",
+    "happened_at": "2024-04-01T08:54:22.683816Z",
+    "webhook": {
+        "id": "31bc0099-b022-4246-b517-7eeb1260fdd6",
+        "name": "atlas-bitbucket-webhook"
+    },
+    "workflow": {
+        "id": "20afd622-f6a9-479f-b452-41c0352185b4",
+        "name": "atlas_workflow",
+        "created_at": "2024-04-01T08:54:15.386Z",
+        "stopped_at": "2024-04-01T08:54:22.584Z",
+        "url": "https://app.circleci.com/pipelines/bitbucket/yasinisayildirim/circle-test/7/workflows/20afd622-f6a9-479f-b452-41c0352185b4",
+        "status": "success"
+    },
+    "pipeline": {
+        "id": "89d398aa-1e68-4bbf-9fe2-c4af7854b68c",
+        "number": 7,
+        "created_at": "2024-04-01T08:54:15.088Z",
+        "trigger": {
+            "type": "webhook"
+        },
+        "vcs": {
+            "provider_name": "bitbucket",
+            "origin_repository_url": "https://bitbucket.org/yasinisayildirim/circle-test",
+            "target_repository_url": "https://bitbucket.org/yasinisayildirim/circle-test",
+            "revision": "730968c1e5bdd19b97b408081bdf0c20093100c6",
+            "commit": {
+                "subject": null,
+                "body": null,
+                "author": {
+                    "name": null,
+                    "email": null
+                },
+                "authored_at": null,
+                "committer": {
+                    "name": null,
+                    "email": null
+                },
+                "committed_at": null
+            },
+            "branch": null
+        }
+    },
+    "project": {
+        "id": "3e30f7ed-662b-4e8d-a819-b143a4ed3b07",
+        "name": "circle-test",
+        "slug": "bitbucket/yasinisayildirim/circle-test"
+    },
+    "organization": {
+        "id": "30c008dc-f63c-41c5-92c9-86d304b94e49",
+        "name": "yasinisayildirim"
+    }
+}
+
