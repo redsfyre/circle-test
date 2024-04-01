@@ -1,0 +1,56 @@
+{
+    "type": "workflow-completed",
+    "id": "40ea9e54-5016-3362-be51-02b5c3f6b35d",
+    "happened_at": "2024-04-01T08:51:39.752541Z",
+    "webhook": {
+        "id": "31bc0099-b022-4246-b517-7eeb1260fdd6",
+        "name": "atlas-bitbucket-webhook"
+    },
+    "workflow": {
+        "id": "4ab2c36f-1949-4062-9772-4e971f889091",
+        "name": "atlas_workflow",
+        "created_at": "2024-04-01T08:51:33.575Z",
+        "stopped_at": "2024-04-01T08:51:39.658Z",
+        "url": "https://app.circleci.com/pipelines/bitbucket/yasinisayildirim/circle-test/3/workflows/4ab2c36f-1949-4062-9772-4e971f889091",
+        "status": "success"
+    },
+    "pipeline": {
+        "id": "f48b3ccf-e473-447f-aef1-75361907740b",
+        "number": 3,
+        "created_at": "2024-04-01T08:51:33.473Z",
+        "trigger": {
+            "type": "webhook"
+        },
+        "vcs": {
+            "provider_name": "bitbucket",
+            "origin_repository_url": "https://bitbucket.org/yasinisayildirim/circle-test",
+            "target_repository_url": "https://bitbucket.org/yasinisayildirim/circle-test",
+            "revision": "36a1a492a81bf7f956b10aecde680e936653df38",
+            "commit": {
+                "subject": "added some test for bitbucket commit",
+                "body": "",
+                "author": {
+                    "name": "Yasin Isa YILDIRIM",
+                    "email": "yasin.yildirim@faraday.net"
+                },
+                "authored_at": "2024-04-01T08:51:22Z",
+                "committer": {
+                    "name": null,
+                    "email": null
+                },
+                "committed_at": null
+            },
+            "branch": "main"
+        }
+    },
+    "project": {
+        "id": "3e30f7ed-662b-4e8d-a819-b143a4ed3b07",
+        "name": "circle-test",
+        "slug": "bitbucket/yasinisayildirim/circle-test"
+    },
+    "organization": {
+        "id": "30c008dc-f63c-41c5-92c9-86d304b94e49",
+        "name": "yasinisayildirim"
+    }
+}
+
