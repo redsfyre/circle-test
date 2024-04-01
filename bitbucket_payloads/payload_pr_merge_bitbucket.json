@@ -1,0 +1,56 @@
+{
+    "type": "workflow-completed",
+    "id": "08c0be2b-bbd8-34d8-a729-5a30069fd243",
+    "happened_at": "2024-04-01T10:12:51.137335Z",
+    "webhook": {
+        "id": "31bc0099-b022-4246-b517-7eeb1260fdd6",
+        "name": "atlas-bitbucket-webhook"
+    },
+    "workflow": {
+        "id": "05428df8-331f-4e7c-8255-f9d31bc94e1e",
+        "name": "atlas_workflow",
+        "created_at": "2024-04-01T10:12:42.587Z",
+        "stopped_at": "2024-04-01T10:12:51.037Z",
+        "url": "https://app.circleci.com/pipelines/bitbucket/yasinisayildirim/circle-test/11/workflows/05428df8-331f-4e7c-8255-f9d31bc94e1e",
+        "status": "success"
+    },
+    "pipeline": {
+        "id": "d60fb027-4fac-4856-9415-f9e9ed1108ac",
+        "number": 11,
+        "created_at": "2024-04-01T10:12:42.437Z",
+        "trigger": {
+            "type": "webhook"
+        },
+        "vcs": {
+            "provider_name": "bitbucket",
+            "origin_repository_url": "https://bitbucket.org/yasinisayildirim/circle-test",
+            "target_repository_url": "https://bitbucket.org/yasinisayildirim/circle-test",
+            "revision": "fceceb9a25a1b58920e6e0aecbebbf6762bf9a79",
+            "commit": {
+                "subject": "Merged in new (pull request #1)",
+                "body": "Circle PR test",
+                "author": {
+                    "name": "Yasin \u0130sa YILDIRIM",
+                    "email": "yasinisayildirim@protonmail.com"
+                },
+                "authored_at": "2024-04-01T10:12:39Z",
+                "committer": {
+                    "name": null,
+                    "email": null
+                },
+                "committed_at": null
+            },
+            "branch": "main"
+        }
+    },
+    "project": {
+        "id": "3e30f7ed-662b-4e8d-a819-b143a4ed3b07",
+        "name": "circle-test",
+        "slug": "bitbucket/yasinisayildirim/circle-test"
+    },
+    "organization": {
+        "id": "30c008dc-f63c-41c5-92c9-86d304b94e49",
+        "name": "yasinisayildirim"
+    }
+}
+
