@@ -14,7 +14,8 @@ jobs:
 workflows:
   atlas_workflow:
     jobs:
-      - build:
+      - build
+#      - build:
 #          filters:
 #            tags:
 #              only:
